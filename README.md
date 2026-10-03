@@ -130,6 +130,14 @@ Sonra Unity'de **VinceNoir › 1. Setup Everything**.
 ```
 Çıktı: `TestRuns/` (git'e girmez).
 
+## Claude skill'leri
+
+`.claude/skills/` altında [kevinbadi/blender-skills](https://github.com/kevinbadi/blender-skills) (commit `b2f0f81`) var:
+kamera animasyonları (turntable, slow-zoom, dolly, crane, loop'lar), Poly Haven doku / HDRI / sahne kurulumu, three.js export,
+Meshy ile görüntüden 3B. Bu klasörde Claude Code açıldığında otomatik yüklenirler.
+Çoğu **blender-mcp** eklentisini ister (Blender'da çalışan MCP sunucusu, port 9876; `uvx blender-mcp`) — ayrıntı: `.claude/skills/blender-skills-README.md`.
+`image-to-3d` / `multi-image-to-3d` bir **Meshy API anahtarı** ister; `blender-toolkit` eksik parçalarla geliyor (addon ve script'leri depoda yok).
+
 ## Notlar
 
 - Depoda **Git LFS kullanılmadı** (en büyük dosya 33 MB'lık FBX). FBX çok sık değişirse ileride LFS'e geçilebilir.
