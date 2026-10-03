@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VinceNoir/Scenes/BarValentino.unity
+    guid: 3340caef7592a4d47ba04f648a231292
+  - enabled: 1
+    path: Assets/VinceNoir/Scenes/NoirTest.unity
+    guid: 9ec9246afd0f27f489937dd6c15d4f60
+  m_configObjects: {}

@@ -1,0 +1,42 @@
+# ---- Unity (regenerated on every machine)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---- builds and test output (rebuild with VinceNoir > 2. Build Windows Player or Tools\BuildAndTest.ps1)
+/[Bb]uild/
+/[Bb]uilds/
+/TestRuns/
+/AutoTestShots/
+
+# ---- IDE / OS
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+crashlytics-build.properties
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- Blender backups / scratch output
+*.blend1
+*.blend2
+/Blender/out/
